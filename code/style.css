@@ -2,23 +2,43 @@ html {
   box-sizing: border-box;
   background: #728C54;
   color: #19171c;
+    font-family: helvetica, sans-serif;
+}
+
+h1{
+font-size: 36px;
+text-align: center;
+letter-spacing: 2px;
+font-variant: small-caps;
+
 }
 
 h2{
-  font-family: helvetica, sans-serif;
   text-decoration: none;
   letter-spacing:1.5;
-  line-height: 0.2;
+  margin: 0;
+
+
+}
+
+h2 span{
+  background: white;
+  box-shadow: 5px 0 0 white, -5px 0 0 white;
 }
 
 p {
-  font-family: helvetica, sans-serif;
-  line-height: 0.2;
   color: grey;
   font-size: 12px;
+  margin: 0;
+}
+
+p span {
+  background: white;
+  box-shadow: 5px 0 0 white, -5px 0 0 white;
 }
 
 .container .box{
+  position: absolute;
   float:left;
   width: 100%;
   text-align: center;
@@ -45,24 +65,22 @@ p {
 
 .text {
   position: absolute;
-    bottom: 20px;
-    left: 5%;
-    background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
+    bottom: 15px;
+    left: 15px;
     text-align: left;
-    width:85%;
-
+    display:inline;
+    width: 85%;
 }
 
 .text-2{
-  position: absolute;
+    position: absolute;
     bottom: 20px;
     left: 20px;
-    background-color: white;
     padding-left: 5px;
     padding-right: 5px;
     text-align: left;
+    display: inline;
+    width: 75%;
 }
 
 
@@ -100,4 +118,5 @@ p {
   .text{
     display: none
   }
+
 }
